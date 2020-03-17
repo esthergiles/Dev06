@@ -1,0 +1,29 @@
+/*
+Name: Esther Brown
+Dev 06 style.css
+CIS 376
+Spring 2020
+*/
+
+.counter {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.counter .input-box {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.counter .input-box:focus {
+  z-index: 2;
+}
+.counter input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
